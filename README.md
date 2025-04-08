@@ -12,16 +12,17 @@ Make sure you are running Ubuntu 22.04. \
 ## Creating a ROS2 workspace
 [ROS2 Tutorials Creating a workspace](https://docs.ros.org/en/humble/Tutorials/Workspace/Creating-A-Workspace.html)
 
-## Note: 
-astro_serial_cpp package is not included in build by default
- If you want to build it remove the COLCON_IGNORE file from astro_serial_cpp folder.
-
 1. Example, creating a workspace named astro_ws:
 
     ```bash
     mkdir -p ~/astro_ws/src
     cd ~/astro_ws/src
     ```
+
+## Note: 
+astro_serial_cpp package is not included in build by default
+ If you want to build it remove the COLCON_IGNORE file from astro_serial_cpp folder.
+ 
 ## Install and compile ASTRO package
 
 1. **Clone ASTRO package from GitHub**
