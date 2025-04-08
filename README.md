@@ -138,7 +138,7 @@ ros2 launch astro rsp.launch.py run_rviz:=true
 ```
 
 Output: \
-![Rviz2 View](.astro/media/rviz2_view.png)
+![Rviz2 View](./astro/media/rviz2_view.png)
 
 
     
