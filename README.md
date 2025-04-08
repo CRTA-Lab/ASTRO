@@ -20,7 +20,7 @@ Make sure you are running Ubuntu 22.04. \
     ```
 
 ## Note: 
-***astro_serial_cpp*** package is not included in build by default.
+***astro_serial_cpp*** package is not included in the build by default.
  If you want to build it remove the COLCON_IGNORE file from astro_serial_cpp folder.
 
 ## Install and compile ASTRO package
