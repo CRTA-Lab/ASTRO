@@ -2,7 +2,14 @@
 This is a ROS2 Humble meta-package for interfacing with an ASTRO robot.
 
 
-Example, creating a workspace named astro_ws:
+Commands that may need to be run
+```bash
+sudo apt update
+```
+
+```bash
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+```
 
 ```bash
 sudo apt install ros-humble-rmw-cyclonedds-cpp
