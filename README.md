@@ -57,8 +57,6 @@ DDS:
 4. **Configuring package environment**
 
     If your ws is not named astro_ws, replace astro_ws with your ws name in the following commands. 
-
-    **Bash (default):**
     ```bash
     echo "source astro_ws/install/setup.bash" >> ~/.bashrc
     source ~/.bashrc
