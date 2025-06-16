@@ -13,10 +13,7 @@ Make sure you are running Ubuntu 22.04. \
 [ROS2 Tutorials Creating a workspace](https://docs.ros.org/en/humble/Tutorials/Workspace/Creating-A-Workspace.html)
 
 DDS:
-
-    ```
     sudo apt install ros-humble-rmw-cyclonedds-cpp
-    ```
 
 
 
