@@ -1,4 +1,4 @@
-## Install and compile ASTRO package
+## ASTRO Navigation
 
 1. **Clone ASTRO package from GitHub**
 
