@@ -5,7 +5,7 @@
     ```bash
     ros2 launch astro rsp.launch.py
     ```
-2. Running mapping method 
+2. Running mapping method \
     Make sure you have source your **astro_ws**
     ```bash
     ros2 launch astro_navigation slam_toolbox_online_async.launch.py
@@ -19,9 +19,12 @@
    ```bash
     ros2 launch astro_navigation localization.launch.py map:=moja_mapa.yaml
     ```
-5. Starting navigation of the robot
+5. Starting navigation of the robot \
    Make sure you have source your **astro_ws**
    ```bash
     ros2 launch astro_navigation navigation.launch.py
     ```
 6. Starting _rviz_
+    ```bash
+    ros2 run rviz2 rviz2 -d ~/astro_ws/src/ASTRO/astro_navigation/rviz/nav2_default_view.rviz
+    ```
