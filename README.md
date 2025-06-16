@@ -14,7 +14,7 @@ Make sure you are running Ubuntu 22.04. \
 
 DDS:
 
-    ```bash
+    ```
     sudo apt install ros-humble-rmw-cyclonedds-cpp
     ```
 
