@@ -1,19 +1,12 @@
 # ASTRO (Autonomous System for Teaching Robotics) ROS2 Package
 This is a ROS2 Humble meta-package for interfacing with an ASTRO robot.
 
-## Installing ROS2 Humble
 
-Make sure you are running Ubuntu 22.04. \
-[ROS2 Humble Installation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
-
-## Configuring ROS2 Environment
-[Configuring ROS 2 environment](https://docs.ros.org/en/humble/Tutorials/Configuring-ROS2-Environment.html)
-
-## Creating a ROS2 workspace
-[ROS2 Tutorials Creating a workspace](https://docs.ros.org/en/humble/Tutorials/Workspace/Creating-A-Workspace.html)
-
-DDS:
+Example, creating a workspace named astro_ws:
+    ```bash
     sudo apt install ros-humble-rmw-cyclonedds-cpp
+    ```
+    
 
 
 
