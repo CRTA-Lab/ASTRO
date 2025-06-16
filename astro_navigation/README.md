@@ -1,6 +1,6 @@
 ## ASTRO Navigation
 
-1. Running ASTRO robot state publisher
+1. Running ASTRO robot state publisher \n
     Make sure you have source your **astro_ws**
     ```bash
     ros2 launch astro rsp.launch.py
