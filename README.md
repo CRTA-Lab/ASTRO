@@ -1,6 +1,7 @@
 # ASTRO (Autonomous System for Teaching Robotics) ROS2 Package
 This is a ROS2 Humble meta-package for interfacing with an ASTRO robot.
 
+## Additionals
 
 Commands that may need to be run
 ```bash
