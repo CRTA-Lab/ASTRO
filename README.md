@@ -64,11 +64,6 @@ DDS:
     source ~/.bashrc
     ```
 
-    ***If using Zsh:***
-    ```bash
-    echo "source astro_ws/install/setup.zsh" >> ~/.zshrc
-    source ~/.zshrc
-    ```
 ## Usage
 1. **Chaning RMW Implementation to Cyclone DDS** 
 
@@ -78,12 +73,6 @@ DDS:
     ```bash
     echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
     source ~/.bashrc
-    ```
-
-    *(If using zsh)* **First method (suggested) (zsh):**
-    ```bash
-    echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.zshrc
-    source ~/.zshrc
     ```
 
     ***Second method*** \
@@ -105,16 +94,9 @@ DDS:
 
     However, this will work for only one terminal, in every other terminal we must run the command above to have access to the robot. If you don't want to run the export command in every new terminal, do this. 
 
-    **If using bash (default):**
     ```bash
     echo "export ROS_DOMAIN_ID=number of your ASTRO robot" >> ~/.bashrc
     source ~/.bashrc
-    ```
-
-    ***If using Zsh:***
-    ```bash
-    echo "export ROS_DOMAIN_ID=number of your ASTRO robot" >> ~/.zshrc
-    source ~/.zshrc
     ```
 3. **Starting Robot State Publisher**
 
