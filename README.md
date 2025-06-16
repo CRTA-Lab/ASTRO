@@ -28,7 +28,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 ***astro_serial_cpp*** package is not included in the build by default.
  If you want to build it remove the COLCON_IGNORE file from astro_serial_cpp folder.
 
-## Install and compile ASTRO package
+### Install and compile ASTRO package
 
 1. **Clone ASTRO package from GitHub**
 
@@ -62,7 +62,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
     source ~/.bashrc
     ```
 
-## Usage
+### Usage
 1. **Chaning RMW Implementation to Cyclone DDS** 
 
     For better data transfer between your PC and the ASTRO robot change RMW implementation to Cyclone DDS \
