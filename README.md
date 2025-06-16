@@ -16,7 +16,7 @@ sudo apt install ros-humble-rmw-cyclonedds-cpp
 ```bash
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
-
+## ASTRO
 1. Example, creating a workspace named astro_ws:
 
     ```bash
@@ -24,7 +24,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
     cd ~/astro_ws/src
     ```
 
-## Note: 
+### Note: 
 ***astro_serial_cpp*** package is not included in the build by default.
  If you want to build it remove the COLCON_IGNORE file from astro_serial_cpp folder.
 
