@@ -58,7 +58,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 
     If your ws is not named astro_ws, replace astro_ws with your ws name in the following commands. 
     ```bash
-    echo "source astro_ws/install/setup.bash" >> ~/.bashrc
+    echo "source ~/astro_ws/install/setup.bash" >> ~/.bashrc
     source ~/.bashrc
     ```
 
