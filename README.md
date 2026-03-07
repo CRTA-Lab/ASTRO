@@ -126,7 +126,7 @@ Output: \
 ![Rviz2 View](./astro/media/rviz2_view.png)
 
 ## ASTRO setup
-ASTRO 1 - 192.168.0.11     PC 1 - 192.168.0.21\
+ASTRO 1 - 192.168.0.11 &nbsp; PC 1 - 192.168.0.21\
 ASTRO 2 - 192.168.0.12\
 ASTRO 3 - 192.168.0.13\
 ASTRO 4 - 192.168.0.14\
