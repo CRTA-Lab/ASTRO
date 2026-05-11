@@ -24,8 +24,17 @@ def generate_launch_description():
         output='screen',
         parameters=[slam_params_file],
     )
+    
+    rviz_config_file = os.path.join(pkg, 'config', 'rviz', 'astro_stage_mapping.rviz')
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        output='screen',
+        arguments=['-d', rviz_config_file],
+    )
 
     return LaunchDescription([
         declare_slam_params,
         slam_toolbox_node,
+        rviz_node
     ])
