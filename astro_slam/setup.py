@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'astro_mapping'
+package_name = 'astro_slam'
 
 setup(
     name=package_name,
