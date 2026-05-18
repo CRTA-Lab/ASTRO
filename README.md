@@ -44,7 +44,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 
     ```bash
     cd ~/astro_ws/
-    rosdep install --from-paths src --ignore-src -r -y
+    rosdep install --from-paths src --ignore-src -y
     ```
 3. **Building ASTRO package**
 
