@@ -126,11 +126,11 @@ Output: \
 ![Rviz2 View](./astro/media/rviz2_view.png)
 
 ## ASTRO setup
-ASTRO 1 - 192.168.0.11 &nbsp; PC 1 - 192.168.0.21\
-ASTRO 2 - 192.168.0.12 &nbsp; PC 2 - 192.168.0.22\
-ASTRO 3 - 192.168.0.13 &nbsp; PC 3 - 192.168.0.23\
-ASTRO 4 - 192.168.0.14 &nbsp; PC 4 - 192.168.0.24\
-ASTRO 5 - 192.168.0.15 &nbsp; PC 5 - 192.168.0.25
+```bash
+export ASTRO_NUM=3
+export ROS_DOMAIN_ID=$ASTRO_NUM
+export ZENOH_CONFIG_OVERRIDE="mode=\"client\";connect/endpoints=[\"tcp/192.168.8.1${ASTRO_NUM}
+```
 
 
 
