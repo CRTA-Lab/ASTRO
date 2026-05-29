@@ -129,7 +129,7 @@ Output: \
 ```bash
 export ASTRO_NUM=3
 export ROS_DOMAIN_ID=$ASTRO_NUM
-export ZENOH_CONFIG_OVERRIDE="mode=\"client\";connect/endpoints=[\"tcp/192.168.8.1${ASTRO_NUM}
+export ZENOH_CONFIG_OVERRIDE="mode=\"client\";connect/endpoints=[\"tcp/192.168.8.1${ASTRO_NUM}:7447\"]"
 ```
 
 
